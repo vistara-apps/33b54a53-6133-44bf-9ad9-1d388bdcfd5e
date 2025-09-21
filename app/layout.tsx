@@ -5,7 +5,12 @@ import './globals.css';
 export const metadata: Metadata = {
   title: 'PixelPals Tribe',
   description: 'Your AI-powered virtual pet community on Telegram',
-  viewport: 'width=device-width, initial-scale=1, maximum-scale=1',
+};
+
+export const viewport = {
+  width: 'device-width',
+  initialScale: 1,
+  maximumScale: 1,
 };
 
 export default function RootLayout({
