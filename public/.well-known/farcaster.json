@@ -1,0 +1,30 @@
+{
+  "accountAssociation": {
+    "header": "",
+    "payload": "",
+    "signature": ""
+  },
+  "frame": {
+    "version": "1",
+    "name": "PixelPals Tribe",
+    "subtitle": "Built with Zara",
+    "description": "PixelPals Tribe is a Base Mini App built with Zara.",
+    "iconUrl": "https://0co.to/images/zara-2.png",
+    "homeUrl": "https://33b54a53613344bf9ad91d388bdcfd5e-0rwf.vercel.app",
+    "splashImageUrl": "https://33b54a53613344bf9ad91d388bdcfd5e-0rwf.vercel.app/splash.png",
+    "splashBackgroundColor": "#000000",
+    "heroImageUrl": "https://33b54a53613344bf9ad91d388bdcfd5e-0rwf.vercel.app/image.png",
+    "tagline": "PixelPals Tribe",
+    "screenshotUrls": [
+      "https://33b54a53613344bf9ad91d388bdcfd5e-0rwf.vercel.app/screenshot.png",
+      "https://33b54a53613344bf9ad91d388bdcfd5e-0rwf.vercel.app/screenshot.png"
+    ],
+    "primaryCategory": "social",
+    "tags": [
+      "base",
+      "miniapp",
+      "onchainkit"
+    ],
+    "webhookUrl": "https://33b54a53613344bf9ad91d388bdcfd5e-0rwf.vercel.app/api/webhook"
+  }
+}

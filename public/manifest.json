@@ -1,0 +1,14 @@
+{
+  "name": "PixelPals Tribe",
+  "description": "PixelPals Tribe is a Base Mini App built with Zara.",
+  "image": "https://dummyimage.com/1200x628/0a0b0d/ffffff.png&text=OG",
+  "external_url": "https://33b54a53-6133-44bf-9ad9-1d388bdcfd5e.vercel.app",
+  "properties": {
+    "app": {
+      "name": "PixelPals Tribe",
+      "description": "PixelPals Tribe is a Base Mini App built with Zara.",
+      "url": "https://33b54a53-6133-44bf-9ad9-1d388bdcfd5e.vercel.app",
+      "icon": "https://0co.to/images/zara-2.png"
+    }
+  }
+}
