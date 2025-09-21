@@ -29,7 +29,7 @@ export function clsx(...classes: (string | undefined | null | false)[]): string 
 }
 
 export function cn(...inputs: (string | undefined | null | false)[]): string {
-  return clsx(inputs);
+  return clsx(...inputs);
 }
 
 export function generateId(): string {
