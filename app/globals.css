@@ -1,0 +1,81 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary: hsl(240 60% 50%);
+  --accent: hsl(160 70% 45%);
+  --bg: hsla(230 40% 10% / 0.8);
+  --surface: hsla(230 40% 15% / 0.9);
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+}
+
+body {
+  background: linear-gradient(135deg, #87CEEB 0%, #DDA0DD 50%, #FFB6C1 100%);
+  min-height: 100vh;
+}
+
+@layer components {
+  .pet-card {
+    @apply bg-white/90 backdrop-blur-sm rounded-xl p-4 shadow-card border border-white/20;
+  }
+  
+  .action-button {
+    @apply bg-gradient-to-r from-primary to-accent text-white font-semibold py-3 px-6 rounded-lg shadow-lg hover:shadow-xl transition-all duration-200 active:scale-95;
+  }
+  
+  .chat-bubble {
+    @apply bg-white/80 backdrop-blur-sm rounded-2xl p-3 shadow-sm border border-white/30;
+  }
+  
+  .notification-banner {
+    @apply bg-accent/20 border border-accent/30 rounded-lg p-3 text-accent;
+  }
+  
+  .pet-avatar {
+    @apply w-20 h-20 rounded-full bg-gradient-to-br from-pet-pink to-pet-purple flex items-center justify-center text-3xl shadow-lg;
+  }
+  
+  .stat-bar {
+    @apply bg-gray-200 rounded-full h-2 overflow-hidden;
+  }
+  
+  .stat-fill {
+    @apply h-full bg-gradient-to-r from-accent to-primary transition-all duration-300;
+  }
+}
+
+.sparkle {
+  position: absolute;
+  width: 4px;
+  height: 4px;
+  background: white;
+  border-radius: 50%;
+  animation: sparkle 2s infinite;
+}
+
+@keyframes sparkle {
+  0%, 100% { opacity: 0; transform: scale(0); }
+  50% { opacity: 1; transform: scale(1); }
+}
+
+.floating {
+  animation: float 3s ease-in-out infinite;
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0px); }
+  50% { transform: translateY(-10px); }
+}
